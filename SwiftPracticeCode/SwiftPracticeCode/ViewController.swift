@@ -16,8 +16,12 @@ class ViewController: UIViewController {
     func test() {
         print("single method no coflict")
     }
+
     func test2() {
         print("testing conflicts")
+    }
+    func makeconflit() {
+        print("making conflict did changes in the same screen")
     }
 }
 
